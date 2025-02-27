@@ -19,6 +19,7 @@
 
 ### Chore
 
+- update CHANGELOG.md to include new features and improvements ([5050703](https://github.com///commit/505070342bbce1814959eeac4061c0391d601814))
 - update CHANGELOG.md for version 0.1.0 release ([c193164](https://github.com///commit/c1931645032b8fde76afdc139b780ac6a8832022))
 
 ### Docs
