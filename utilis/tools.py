@@ -7,8 +7,10 @@
 # @Desc     :
 
 from dotenv import load_dotenv, find_dotenv
-from langchain_openai import ChatOpenAI
+from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables.history import RunnableWithMessageHistory
+from langchain_openai import ChatOpenAI
 from os import getenv
 from time import perf_counter
 
@@ -83,3 +85,36 @@ class Timer(object):
             return f"{self._description} took {self._elapsed:.{self._precision}} seconds."
         else:
             return f"{self._description} is not started."
+
+
+def histories_chat_getter(session_id: str, history: dict) -> ChatMessageHistory:
+    """ Get the memory object with the given session_id and history.
+
+    :param session_id: the id number of the whole conversation.
+    :param history: the memory object.
+    :return: the memory object.
+    """
+    if session_id not in history:
+        history[session_id] = ChatMessageHistory()
+    return history[session_id]
+
+
+def conversations_getter(llm: ChatOpenAI, memory, prompts: list[str], session_id: str):
+    """ Get the conversation with the given OpenAI model, memory, prompts, and session_id.
+
+    :param llm: the OpenAI model.
+    :param memory: the memory object.
+    :param prompts: the list of prompts.
+    :param session_id: the id number of the whole conversation.
+    """
+    # Initialize the conversation
+    conversation = RunnableWithMessageHistory(
+        runnable=llm,
+        get_session_history=lambda session_id: memory,
+        input_key="input",
+    )
+
+    # Start the conversation
+    for prompt in prompts:
+        response = conversation.invoke({"input": prompt}, config={"configurable": {"session_id": session_id}})
+        print(response)
