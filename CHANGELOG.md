@@ -5,6 +5,8 @@
 
 ### Features
 
+- add conversation summary getter and history summary functionality ([8fdfae9](https://github.com///commit/8fdfae96ef696d1f707d95a254b32b496b581cad))
+- implement main function for memory summary with API key validation and conversation handling ([256032b](https://github.com///commit/256032b924063a342fe1a9ef2d2f16a75b6904fc))
 - add memory_summary.py for summarizing memory management functionality ([bf45e0d](https://github.com///commit/bf45e0d58bfcd01f32c9b9ce5b0f5c174de0e755))
 - add memory_chat.py for managing conversations with OpenAI API ([a5cb50c](https://github.com///commit/a5cb50c9dfc1b6213c3bb12e4b56e6c7285713de))
 - add functions for managing chat histories and conversations ([3d3817c](https://github.com///commit/3d3817cca460ba6a1c6f71f1bb987a8eae8624b7))
@@ -29,13 +31,14 @@
 
 ### Docs
 
-- update CHANGELOG.md to include recent changes for memory management features ([6cab905](https://github.com///commit/6cab9054e9e553bada7eac5b460a43048f333dab))
+- update CHANGELOG.md to include recent changes for memory management features ([752867b](https://github.com///commit/752867bc9f23a26d4584729cc49ce53d3d2c8501))
 - update CHANGELOG.md to reflect recent feature additions and improvements ([7c160ee](https://github.com///commit/7c160eea5a531489d12819b8ab6269316b98d5f6))
 - create CHANGELOG.md for version 0.1.0 ([7f2100b](https://github.com///commit/7f2100b5ac959a929f254afaf574f876d6210fbc))
 - add instructions for installing langchain_openai ([53b1d5c](https://github.com///commit/53b1d5cb8d37ec71ad58603ee6d146edfed46c00))
 
 ### Code Refactoring
 
+- update conversation handling to use conversations_summary_getter ([f832acb](https://github.com///commit/f832acb36c90367cf6d0d0f7441c331aef66e7aa))
 - update main function docstring for clarity ([661f682](https://github.com///commit/661f68257af9b3f68c2c479ee7ea9ca1001d0e78))
 
 ### Dependencies
