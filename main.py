@@ -4,11 +4,10 @@
 # @Author   :   Shawn
 # @Version  :   Version 0.1.0
 # @File     :   main.py
-# @Desc     :   
+# @Desc     :
 
-def main() -> None:
-    """ Main Function """
-    pass
+def main():
+    """ streamlit run main.py """
 
 
 if __name__ == "__main__":
