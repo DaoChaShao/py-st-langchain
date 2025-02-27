@@ -24,9 +24,9 @@ def main() -> None:
             # Set up the id number of the whole conversation
             session_id = str(uuid4())
             # Set up the memory object
-            histories = {}
+            histories: dict = {}
             # Set up the memory store
-            histories = histories_chat_getter(session_id, histories)
+            memory = histories_chat_getter(session_id, histories)
 
             # Star the conversation
             prompts: list[str] = [
@@ -34,7 +34,7 @@ def main() -> None:
                 "Please sum the numbers",
             ]
             with Timer(2, "Conversation Start", ) as timer:
-                conversations_getter(chat, histories, prompts, session_id)
+                conversations_getter(chat, memory, prompts, session_id)
 
             # print(response)
             # print("Conversation History:")
