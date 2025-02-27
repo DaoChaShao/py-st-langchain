@@ -1,6 +1,7 @@
 dotenv~=0.9.9
 git-changelog==2.5.3
 langchain==0.3.19
+langchain-core~=0.3.40
 langchain_openai==0.3.7
 streamlit==1.42.2
 watchdog~=6.0.0
