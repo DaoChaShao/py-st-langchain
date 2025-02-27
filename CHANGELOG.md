@@ -31,6 +31,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to include recent feature additions and improvements ([9bd317e](https://github.com///commit/9bd317ed16b39339623d96bea586092b2c9b213a))
 - update CHANGELOG.md to include recent changes for memory management features ([752867b](https://github.com///commit/752867bc9f23a26d4584729cc49ce53d3d2c8501))
 - update CHANGELOG.md to reflect recent feature additions and improvements ([7c160ee](https://github.com///commit/7c160eea5a531489d12819b8ab6269316b98d5f6))
 - create CHANGELOG.md for version 0.1.0 ([7f2100b](https://github.com///commit/7f2100b5ac959a929f254afaf574f876d6210fbc))
