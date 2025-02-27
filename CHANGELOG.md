@@ -5,6 +5,7 @@
 
 ### Features
 
+- add memory.py with main function template ([855b4b0](https://github.com///commit/855b4b0e8573dbacaa3a29e559c547bc627d5aff))
 - add without_chain.py for OpenAI API translation functionality ([e6bb827](https://github.com///commit/e6bb82724e5f54263dca148636b0ad2f08cef70f))
 - add with_chain.py for OpenAI API integration and translation functionality ([c72cd4b](https://github.com///commit/c72cd4bc88487184495580c247da0d6f0955f375))
 - add OpenAI API key validation and ChatOpenAI initialization functions ([939e4a9](https://github.com///commit/939e4a96fac10c8400846e602982492342a956b7))
@@ -15,6 +16,10 @@
 ### Bug Fixes
 
 - update .gitignore to prevent duplicate .venv entries ([5924570](https://github.com///commit/5924570c8894328ad24330250601db0217554083))
+
+### Chore
+
+- update CHANGELOG.md for version 0.1.0 release ([c193164](https://github.com///commit/c1931645032b8fde76afdc139b780ac6a8832022))
 
 ### Docs
 
