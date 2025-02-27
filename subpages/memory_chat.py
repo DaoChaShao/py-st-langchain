@@ -6,10 +6,9 @@
 # @File     :   memory_chat.py
 # @Desc     :
 
-
 from uuid import uuid4
 
-from utilis.tools import is_key, opener, histories_chat_getter, conversations_getter, Timer
+from utilis.tools import is_key, opener, histories_chat_getter, conversations_summary_getter, Timer
 
 
 def main() -> None:
@@ -33,13 +32,9 @@ def main() -> None:
                 "Please give me 3 random numbers",
                 "Please sum the numbers",
             ]
-            with Timer(2, "Conversation Start", ) as timer:
-                conversations_getter(chat, memory, prompts, session_id)
-
-            # print(response)
-            # print("Conversation History:")
-            # for message in history_store[session_id].messages:
-            #     print(message)
+            with Timer(2, "Conversation in Chat Counter", ) as timer:
+                conversations_summary_getter(chat, memory, prompts, session_id)
+            print(timer)
         else:
             print("OpenAI API Key is invalid.")
     else:
