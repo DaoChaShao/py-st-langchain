@@ -27,6 +27,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to reflect recent feature additions and improvements ([1fb1326](https://github.com///commit/1fb13264a0446132642d2b7081604179234dce05))
 - create CHANGELOG.md for version 0.1.0 ([7f2100b](https://github.com///commit/7f2100b5ac959a929f254afaf574f876d6210fbc))
 - add instructions for installing langchain_openai ([53b1d5c](https://github.com///commit/53b1d5cb8d37ec71ad58603ee6d146edfed46c00))
 
