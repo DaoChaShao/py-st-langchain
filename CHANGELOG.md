@@ -29,6 +29,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to include recent changes for memory management features ([6cab905](https://github.com///commit/6cab9054e9e553bada7eac5b460a43048f333dab))
 - update CHANGELOG.md to reflect recent feature additions and improvements ([7c160ee](https://github.com///commit/7c160eea5a531489d12819b8ab6269316b98d5f6))
 - create CHANGELOG.md for version 0.1.0 ([7f2100b](https://github.com///commit/7f2100b5ac959a929f254afaf574f876d6210fbc))
 - add instructions for installing langchain_openai ([53b1d5c](https://github.com///commit/53b1d5cb8d37ec71ad58603ee6d146edfed46c00))
