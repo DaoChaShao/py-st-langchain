@@ -5,6 +5,8 @@
 
 ### Features
 
+- add memory_chat.py for managing conversations with OpenAI API ([a5cb50c](https://github.com///commit/a5cb50c9dfc1b6213c3bb12e4b56e6c7285713de))
+- add functions for managing chat histories and conversations ([3d3817c](https://github.com///commit/3d3817cca460ba6a1c6f71f1bb987a8eae8624b7))
 - add memory.py with main function template ([855b4b0](https://github.com///commit/855b4b0e8573dbacaa3a29e559c547bc627d5aff))
 - add without_chain.py for OpenAI API translation functionality ([e6bb827](https://github.com///commit/e6bb82724e5f54263dca148636b0ad2f08cef70f))
 - add with_chain.py for OpenAI API integration and translation functionality ([c72cd4b](https://github.com///commit/c72cd4bc88487184495580c247da0d6f0955f375))
@@ -19,7 +21,8 @@
 
 ### Chore
 
-- update CHANGELOG.md to include new features and improvements ([5050703](https://github.com///commit/505070342bbce1814959eeac4061c0391d601814))
+- rename the file ([1b0c86e](https://github.com///commit/1b0c86ee4d578f9995131be21d633b220edfe4ba))
+- update CHANGELOG.md to include new features and improvements ([573e533](https://github.com///commit/573e533d03f3cbec90b544bb61fe6fb68a0169fd))
 - update CHANGELOG.md for version 0.1.0 release ([c193164](https://github.com///commit/c1931645032b8fde76afdc139b780ac6a8832022))
 
 ### Docs
@@ -30,4 +33,8 @@
 ### Code Refactoring
 
 - update main function docstring for clarity ([661f682](https://github.com///commit/661f68257af9b3f68c2c479ee7ea9ca1001d0e78))
+
+### Dependencies
+
+- update requirements.txt to modify langchain dependencies and add python-dotenv ([f35b020](https://github.com///commit/f35b020e2ef2fea0b3322f4a194ed96ebe3c3e1d))
 
