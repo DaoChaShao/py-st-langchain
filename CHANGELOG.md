@@ -5,6 +5,7 @@
 
 ### Features
 
+- add memory_summary.py for summarizing memory management functionality ([bf45e0d](https://github.com///commit/bf45e0d58bfcd01f32c9b9ce5b0f5c174de0e755))
 - add memory_chat.py for managing conversations with OpenAI API ([a5cb50c](https://github.com///commit/a5cb50c9dfc1b6213c3bb12e4b56e6c7285713de))
 - add functions for managing chat histories and conversations ([3d3817c](https://github.com///commit/3d3817cca460ba6a1c6f71f1bb987a8eae8624b7))
 - add memory.py with main function template ([855b4b0](https://github.com///commit/855b4b0e8573dbacaa3a29e559c547bc627d5aff))
@@ -17,6 +18,7 @@
 
 ### Bug Fixes
 
+- correct variable usage for memory management in conversation handling ([2f65ed7](https://github.com///commit/2f65ed7e72127c0eb413d4ca108ab6b236e808c6))
 - update .gitignore to prevent duplicate .venv entries ([5924570](https://github.com///commit/5924570c8894328ad24330250601db0217554083))
 
 ### Chore
@@ -27,7 +29,7 @@
 
 ### Docs
 
-- update CHANGELOG.md to reflect recent feature additions and improvements ([1fb1326](https://github.com///commit/1fb13264a0446132642d2b7081604179234dce05))
+- update CHANGELOG.md to reflect recent feature additions and improvements ([7c160ee](https://github.com///commit/7c160eea5a531489d12819b8ab6269316b98d5f6))
 - create CHANGELOG.md for version 0.1.0 ([7f2100b](https://github.com///commit/7f2100b5ac959a929f254afaf574f876d6210fbc))
 - add instructions for installing langchain_openai ([53b1d5c](https://github.com///commit/53b1d5cb8d37ec71ad58603ee6d146edfed46c00))
 
